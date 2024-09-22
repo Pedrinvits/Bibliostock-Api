@@ -16,7 +16,10 @@ class DatabaseSeeder extends Seeder
         // User::factory(10)->create();
 
         $this->call([
-            AuthorSeeder::class
+            AuthorSeeder::class,
+            PublisherSeeder::class,
+            GenreSeeder::class,
+            BookSeeder::class,
         ]);
     }
 }

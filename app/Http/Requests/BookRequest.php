@@ -43,12 +43,6 @@ class BookRequest extends FormRequest
             'author_id' => 'required|integer',
             'genre_id' => 'required|integer',
             'publisher_id' => 'required|integer',
-           
-            // 'author_id' => 'required|exists:authors,id',      // Verifica se o autor já existe no banco
-            // 'genre_id' => 'required|exists:genres,id',        // Verifica se o gênero já existe no banco
-            // 'publisher_id' => 'required|exists:publishers,id',// Verifica se a editora já existe no banco
-            // 'title' => 'required|string|max:255',             // Valida o título
-            // 'release_year' => 'required|integer|min:1500|max:'
         ];
     }
 
